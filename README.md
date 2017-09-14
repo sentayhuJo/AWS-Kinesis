@@ -1,20 +1,15 @@
-<<<<<<< HEAD
+# AWS-Kinesis
 
-KINESIS
-
-
-INITIAL SETUP 
+## INITIAL SETUP 
 -------------
     - AWS credential should be configured in the local machine 
             and 
     - $ npm install 
 
-TO PRODUCE DATA
+## TO PRODUCE DATA
 ===============
-$ node produce
+- $ node produce
 
-TO GET THE DATA
+## TO CONSUME DATA
 ===============
-$ node get_record
-=======
-
+- $ node get_record
