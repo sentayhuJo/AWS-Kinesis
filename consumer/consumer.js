@@ -20,10 +20,7 @@ kinesis.describeStream({
           }, (err, recordsData) => {
             err ? console.log(err, err.stack) : // an error occurred
               console.log(recordsData); // successful response
-            }
-          );
-        }
-      );
+          });
+      });
     });
-  }
-);
+});
