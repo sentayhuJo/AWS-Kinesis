@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 KINESIS
 
@@ -15,3 +16,5 @@ $ node produce
 TO GET THE DATA
 ===============
 $ node get_record
+=======
+
