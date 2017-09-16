@@ -15,11 +15,11 @@ kinesis.describeStream({
         StreamName: config.clickStreamProducer.stream
       }, (err, shardIteratordata) => {
         err ? console.log(err, err.stack) :// an error occurred
-          kinesis.getRecords({ //successful response
-            ShardIterator: shardIteratordata.ShardIterator
-          }, (err, recordsData) => {
-            err ? console.log(err, err.stack) : // an error occurred
-              console.log(recordsData); // successful response
+        kinesis.getRecords({ //successful response
+          ShardIterator: shardIteratordata.ShardIterator
+        }, (err, recordsData) => {
+          err ? console.log(err, err.stack) : // an error occurred
+            console.log(recordsData); // successful response
           });
       });
     });
